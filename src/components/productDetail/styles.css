@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .cardDetail {
+    background-color: rgba(51, 255, 0, 0.671);
+    display: inline-block;
+    width: 1300px;
+    align-items: center;
+    border-radius: 25px;
+    text-align: center;
+  }
+  
+  .h1-detail {
+    font-size: 30px;
+    color: black;
+  }
+  
+  .img-detail {
+    width: 200px;
+    height: 150px;
+    border-radius: 75px;
+  }
+  
