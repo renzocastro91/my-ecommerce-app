@@ -1,0 +1,8 @@
+.title{
+    display:inline-flex;
+    align-items: center;
+}
+
+.card{
+    display:flex;
+}

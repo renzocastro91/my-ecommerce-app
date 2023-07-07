@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./styles.css"
 
 interface Categories {
@@ -11,14 +12,13 @@ interface Categories {
 function CardCategorie(categories: Categories){
     return(
         <>
-           <div className="card-container">
-                <div>
-                    <h2>{categories.name}</h2>
-                </div>
-                <div className="card"> 
-                    <img src={categories.image} alt="categorie"></img>
-                </div> 
-            </div> 
+           <div className="card-container2">
+                    <h3>{categories.name}</h3>
+                    <img className="img-c2" src={categories.image} alt="categorie"></img>
+                    <br></br>
+                    <Link to="/"><p className="p-card">Ver Productos</p></Link>
+            </div>
+                <br></br>
         </>
 
     )

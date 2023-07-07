@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import CardCategorie from "../cardCategorie/CardCategorie"
 import { API_URL } from "../../const/const"
-
+import "./styles.css"
 interface Categories{
     id: number 
     name: string 
@@ -30,6 +30,11 @@ function Categories(){
 
     return(
         <div className="container">
+           <div>
+                <h1 className="title">Categorías</h1>
+            </div>
+            <br></br>
+           <div className="card">
                 {categories ? (
                     categories.map((catgri) =>{
                         return(
@@ -39,6 +44,8 @@ function Categories(){
                 ):(
                     <h1>Cargando...</h1>
                 )}
+           </div>
+                
         </div>
     )
 }

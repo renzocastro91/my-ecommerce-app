@@ -1,17 +1,36 @@
-.card-container{
-    background-color: black;
-    margin:6px;
-    border-radius: 5px;
+.card-container2{
+    display: inline-block;
+    width: 250px;
+    height: 240px;
+    border-radius: 8px;
+    background-image: url("https://png.pngtree.com/background/20220731/original/pngtree-grunge-brush-texture-background-red-and-black-splatter-picture-image_1912064.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+    margin-right: 10px; 
+    margin-top: 20px;
+    max-height: 300px;
+    overflow: hidden;
 }
 
-.card{
-    margin:13px;
-}
-.card img{
-    width: 200px;
+.card-container2 h3{
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
 }
 
-.card-container h3{
-    color:blueviolet;
-    padding-left:15px;
+.p-card{
+    color:chartreuse;
+    font-size: 15px;
+    text-align: center;
 }
+
+.img-c2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+  }
+  

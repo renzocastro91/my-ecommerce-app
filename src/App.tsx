@@ -4,11 +4,11 @@ import Layout from './components/layout/Layout'
 import Categories from './components/categories/Categories'
 import NotFound from './screens/notFound/NotFound'
 import Products from './components/product/Products'
-import Detail from './components/product/Detail'
+import Detail from './components/productDetail/Detail'
 import Cart from './components/cart/Cart'
 import Login from './components/login/Login'
 import Register from './components/login/Register'
-//import './App.css'
+
 
 function App() {
   return(
@@ -20,7 +20,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/categories' element={<Categories/>}/>
-          <Route path='/products' element={<Products/>}/>
+          <Route path='/product' element={<Products/>}/>
           <Route path='/products/:id' element={<Detail/>}/>
           <Route path='/cartDetail' element={<Cart/>}/>
           <Route path='*' element={<NotFound/>}/>  
