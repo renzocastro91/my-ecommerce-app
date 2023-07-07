@@ -8,6 +8,7 @@ import Detail from './components/productDetail/Detail'
 import Cart from './components/cart/Cart'
 import Login from './components/login/Login'
 import Register from './components/login/Register'
+import CategoryDetail from './components/categoryDetail/CategoryDetail'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path='/login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
           <Route path='/categories' element={<Categories/>}/>
+          <Route path='/categories/:id' element={<CategoryDetail/>}/>
           <Route path='/product' element={<Products/>}/>
           <Route path='/products/:id' element={<Detail/>}/>
           <Route path='/cartDetail' element={<Cart/>}/>

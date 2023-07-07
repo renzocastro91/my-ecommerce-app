@@ -16,7 +16,7 @@ function CardCategorie(categories: Categories){
                     <h3>{categories.name}</h3>
                     <img className="img-c2" src={categories.image} alt="categorie"></img>
                     <br></br>
-                    <Link to="/"><p className="p-card">Ver Productos</p></Link>
+                    <Link to={`/categories/${categories.id}`}><p className="p-card">Ver Productos</p></Link>
             </div>
                 <br></br>
         </>

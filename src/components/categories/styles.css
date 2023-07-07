@@ -4,5 +4,7 @@
 }
 
 .card{
-    display:flex;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px; 
 }
